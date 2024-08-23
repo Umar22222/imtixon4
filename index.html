@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <!-- HEADER START -->
+     <header id="header" class="header">
+        <div class="container">
+           <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/logo (5).svg" alt="logo">
+                <select class="navbar__Travelers" name="Travelers" id="">
+                    <option>Travelers</option>
+                    <option>Shop</option>
+                    <option>Blog</option>
+                    <option>Ticket</option>
+                    <option>Hotel</option>  
+                </select>
+            </div>
+            <ul class="navbar__calection">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">
+                        <span>Support</span>
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">
+                        <span><img src="./assets/Line.png" alt="Line"> Language</span>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn">List your property</button>
+            <div class="navbar__img">
+                <img src="./assets/Notification - Bell.svg" alt="Notification">
+                <img src="./assets/avatar (1).png" alt="avatar">
+            </div>
+           </nav> 
+        </div>
+     </header>
+     <!-- HEADER END -->
+      <main>
+        <!-- HERO START -->
+         <section class="section">
+            <div class="container">
+                <img class="hero__img" src="./assets/Hero image.png" alt="hero img">
+                <div class="hero">
+                    <div class="nav-tabs">
+                        <a href="#" class="active">Stays</a>
+                        <a href="#">Flights</a>
+                        <a href="#">Cars</a>
+                        <a href="#">Things to do</a>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Return to same location</button>
+                        <button class="btn">Return to a different location</button>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.253 6.478C24.3136 5.61941 26.3809 7.68663 25.5223 9.74723L19.5988 23.9637C18.4403 26.7439 14.3655 26.274 13.8703 23.303L13.1313 18.8689L8.69725 18.1299C5.72626 17.6348 5.25632 13.56 8.0366 12.4015L22.253 6.478ZM23.6761 8.978C23.8478 8.56588 23.4344 8.15243 23.0223 8.32415L8.80583 14.2477C7.87907 14.6338 8.03572 15.9921 9.02605 16.1571L13.4601 16.8962C14.3031 17.0366 14.9636 17.6972 15.1041 18.5401L15.8431 22.9742C16.0082 23.9646 17.3665 24.1212 17.7526 23.1944L23.6761 8.978Z" fill="#B1B5C4"/>
+                                </svg>
+                                <label for="pickup-location">Pickup location</label>
+                            <input type="text" id="pickup-location" placeholder="Where are you?">
+                        </div>
+                        <div class="input-group">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.334 10H9.33398C8.7817 10 8.33398 10.4477 8.33398 11V23C8.33398 23.5523 8.7817 24 9.33398 24H23.334C23.8863 24 24.334 23.5523 24.334 23V11C24.334 10.4477 23.8863 10 23.334 10ZM9.33398 8C7.67713 8 6.33398 9.34315 6.33398 11V23C6.33398 24.6569 7.67713 26 9.33398 26H23.334C24.9908 26 26.334 24.6569 26.334 23V11C26.334 9.34315 24.9908 8 23.334 8H9.33398Z" fill="#B1B5C4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.334 16C13.7817 16 13.334 16.4477 13.334 17C13.334 17.5523 13.7817 18 14.334 18H21.334C21.8863 18 22.334 17.5523 22.334 17C22.334 16.4477 21.8863 16 21.334 16H14.334ZM11.334 20C10.7817 20 10.334 20.4477 10.334 21C10.334 21.5523 10.7817 22 11.334 22H17.334C17.8863 22 18.334 21.5523 18.334 21C18.334 20.4477 17.8863 20 17.334 20H11.334Z" fill="#B1B5C4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.334 6C10.7817 6 10.334 6.44772 10.334 7V11C10.334 11.5523 10.7817 12 11.334 12C11.8863 12 12.334 11.5523 12.334 11V7C12.334 6.44772 11.8863 6 11.334 6ZM21.334 6C20.7817 6 20.334 6.44772 20.334 7V11C20.334 11.5523 20.7817 12 21.334 12C21.8863 12 22.334 11.5523 22.334 11V7C22.334 6.44772 21.8863 6 21.334 6Z" fill="#B1B5C4"/>
+                                </svg>                            <label for="pickup-date">Tue, May 11</label>
+                            <input type="text" id="pickup-date" value="10:00 AM">
+                        </div>
+                        <div class="input-group">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.334 10H9.33398C8.7817 10 8.33398 10.4477 8.33398 11V23C8.33398 23.5523 8.7817 24 9.33398 24H23.334C23.8863 24 24.334 23.5523 24.334 23V11C24.334 10.4477 23.8863 10 23.334 10ZM9.33398 8C7.67713 8 6.33398 9.34315 6.33398 11V23C6.33398 24.6569 7.67713 26 9.33398 26H23.334C24.9908 26 26.334 24.6569 26.334 23V11C26.334 9.34315 24.9908 8 23.334 8H9.33398Z" fill="#B1B5C4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.334 16C13.7817 16 13.334 16.4477 13.334 17C13.334 17.5523 13.7817 18 14.334 18H21.334C21.8863 18 22.334 17.5523 22.334 17C22.334 16.4477 21.8863 16 21.334 16H14.334ZM11.334 20C10.7817 20 10.334 20.4477 10.334 21C10.334 21.5523 10.7817 22 11.334 22H17.334C17.8863 22 18.334 21.5523 18.334 21C18.334 20.4477 17.8863 20 17.334 20H11.334Z" fill="#B1B5C4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.334 6C10.7817 6 10.334 6.44772 10.334 7V11C10.334 11.5523 10.7817 12 11.334 12C11.8863 12 12.334 11.5523 12.334 11V7C12.334 6.44772 11.8863 6 11.334 6ZM21.334 6C20.7817 6 20.334 6.44772 20.334 7V11C20.334 11.5523 20.7817 12 21.334 12C21.8863 12 22.334 11.5523 22.334 11V7C22.334 6.44772 21.8863 6 21.334 6Z" fill="#B1B5C4"/>
+                                </svg>                            <label for="return-date">Fri, May 11</label>
+                            <input type="text" id="return-date" value="10:00 AM">
+                        </div>
+                        <div class="search-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9056 16.3199C13.551 17.3729 11.8487 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 11.8487 17.3729 13.551 16.3199 14.9056L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L14.9056 16.3199ZM16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10Z" fill="#FCFCFD"/>
+                                </svg>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- HERO END -->
+          <!-- CARUSEL START -->
+           <section class="section2">
+            <div class="container">
+                <div class="carousel-container">
+                    <div class="carousel-header">
+                        <div>
+                            <h2>Popular destinations</h2>
+                            <p>for car rentals</p>
+                        </div>
+                        <div>
+                            <button class="carousel-btn carousel-prev">&larr;</button>
+                            <button class="carousel-btn carousel-next">&rarr;</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/paris.png" alt="Paris">
+                                <div class="info">
+                                    <h3>Paris</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/london.png" alt="London">
+                                <div class="info">
+                                    <h3>London</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/ams.png" alt="Ams">
+                                <div class="info">
+                                    <h3>Ams</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/milan.png" alt="Milan">
+                                <div class="info">
+                                    <h3>Milan</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/paris.png" alt="Paris">
+                                <div class="info">
+                                    <h3>Paris</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/london.png" alt="London">
+                                <div class="info">
+                                    <h3>London</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/ams.png" alt="Ams">
+                                <div class="info">
+                                    <h3>Ams</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/milan.png" alt="Milan">
+                                <div class="info">
+                                    <h3>Milan</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/paris.png" alt="Paris">
+                                <div class="info">
+                                    <h3>Paris</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/london.png" alt="London">
+                                <div class="info">
+                                    <h3>London</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/ams.png" alt="Ams">
+                                <div class="info">
+                                    <h3>Ams</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                
+                                <img src="./assets/milan.png" alt="Milan">
+                                <div class="info">
+                                    <h3>Milan</h3>
+                                    <p>Car rentals in 86 pickup locations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">Show more</button>
+                </div>
+            </div>  
+        </section>
+            <!-- CARUSEL END -->
+             <!-- INTAGER START -->
+             <section class="intager">
+                <div class="container">
+                    <div class="intager__wrapper">
+                        <div class="intager__title">
+                            <span>supercharge your planning powers</span>
+                            <h3>Rent a car in minutes with Fleet</h3>
+                            <p>Stacks is a production-ready library of stackable content blocks built in React Native.</p>
+                            <div class="intager__input">
+                                <input type="text" placeholder="Enter your phone number">
+                                <button class="btn">&rarr;</button>
+                            </div>
+                        </div>
+                        <div class="intager__image">
+                            <img src="./assets/phone mockup.png" alt="phone">
+                        </div>
+                    </div>
+                </div>
+            </section>
+          <!-- INTAGER END -->
+           <!-- CARD START -->
+           <section class="explore-nearby">
+            <div class="container">
+                <div class="header">
+                    <h2>Explore nearby</h2>
+                    <p>for car rentals</p>
+                </div>
+                <div class="cards">
+            
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/london.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+    
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/ams.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/london.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+    
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/ams.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/london.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+    
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/ams.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/london.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+    
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/ams.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/london.png" alt="Location Image">
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>London</h3>
+                            <p>Car rentals at this pickup location.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btnn">Show more</button>
+            </div>
+        </section>
+        <!-- CARD END -->
+         <!-- ICEN CARD START -->
+          <section class="icen">
+            <div class="container">
+                <div class="services-section">
+                    <h3 class="sub-heading">A CREATIVE AGENCY THAT LEAD AND INSPIRE</h3>
+                    <h1 class="main-heading">Amazing Services</h1>
+                    <button class="contact-button">Contact Us</button>
+                    
+                    <div class="services-container">
+                        <div class="service-card">
+                            <div class="icon">😊</div>
+                            <h4>1M+ Reviewers</h4>
+                            <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon">⚡</div>
+                            <h4>24/7 Customer Service</h4>
+                            <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon">🎁</div>
+                            <h4>Free Cancellation</h4>
+                            <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+      <!-- ICEN CARD END -->
+       <!-- CARDS START -->
+        <section class="cardss">
+            <div class="container">
+                <div class="logos-section">
+                    <div class="logo-item">
+                        <img src="./assets/logo 01.png" alt="RotaShow">
+                        
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/logo 02.png" alt="Waves">
+            
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/logo 03.png" alt="Velocity">
+                        
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/logo 04.png" alt="Travelers">
+                        
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/logo 05.png" alt="Goldlines">
+                        
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/logo 01.png" alt="RotaShow">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+
+
+
+
+
+
+
+
+
+      <script src="./js/app.js"></script>
+</body>
+</html>

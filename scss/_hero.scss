@@ -1,0 +1,137 @@
+
+.hero {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.nav-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.nav-tabs a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.nav-tabs a.active {
+    border-bottom: 2px solid #000;
+}
+.buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+.buttons button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.buttons .active {
+    background-color: #000;
+    color: #fff;
+}
+.buttons .inactive {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-group svg {
+    margin-right: 10px;
+}
+.form-group .input-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.form-group .input-group label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.form-group .input-group input {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+    font-size: 16px;
+}
+.form-group .search-btn {
+    background-color: #1f5eff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Media Query for tablets and larger phones (width <= 768px) */
+@media (max-width: 880px) {
+    .nav-tabs {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn{
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-group .input-group {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .form-group .search-btn {
+        margin-top: 10px;
+    }
+}
+
+/* Media Query for smaller phones (width <= 480px) */
+@media (max-width: 480px) {
+    .nav-tabs a {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .form-group .input-group label, 
+    .form-group .input-group input {
+        font-size: 14px;
+    }
+
+    .form-group .search-btn {
+        padding: 8px;
+    }
+
+    .search-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+}
